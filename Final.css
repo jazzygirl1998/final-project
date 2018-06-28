@@ -1,0 +1,84 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+  background-image: url("images/dust_scratches.png");
+  background-size: cover;
+}
+
+.headerimg { 
+ width: 100vw;
+ margin-top: -530px;
+ margin-left: -12px;
+}
+.h1header {
+  width: 100vw;
+  margin-top: -20px;
+  margin-left: -12px;
+  margin-bottom: -50px;
+  height: 250px;
+}
+.bookshelf {
+  width: 86vw;
+  margin-left: 84px;
+  margin-right: auto;
+  display: block;
+}
+.book {
+ width: 100px;
+ margin-left: 222px;
+
+
+}
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+}
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.content-section-heading h2 {
+  font-size: 3rem;
+}
+
+.content-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 800;
+
+}
+
+ .book.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+ .book.btn:hover {
+    background-color: black;
+}
+
